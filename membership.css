@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.membership-container {
+    max-width: 520px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.membership-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.membership-container label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.membership-container select,
+.membership-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.membership-container select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.membership-container button {
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.membership-container button:hover {
+    background: #005fa3;
+}
+
+.note {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 12px;
+    color: #555;
+}
